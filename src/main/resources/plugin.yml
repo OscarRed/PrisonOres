@@ -1,0 +1,7 @@
+name: ${project.artifactId}
+main: ${project.groupId}.${project.artifactId}
+version: ${project.version}
+author: Oscar
+description: ${project.description}
+depend: [Vault]
+softdepends: [MVdWPlaceholderAPI]
