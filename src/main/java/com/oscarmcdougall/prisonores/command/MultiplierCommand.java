@@ -16,6 +16,7 @@ import java.text.DecimalFormat;
 public class MultiplierCommand implements CommandInterface {
 
     private DecimalFormat removeDecimals = new DecimalFormat("#");
+    private NumberUtility numberUtility = new NumberUtility();
 
     @Override
     public boolean executeCommand(CommandSender commandSender, String s, String[] strings) {
@@ -34,7 +35,7 @@ public class MultiplierCommand implements CommandInterface {
         OfflinePlayer targetPlayer = Bukkit.getPlayer(targetPlayerName);
         String percentageMultiplierString = strings[1];
 
-        if (!NumberUtility.isDouble(percentageMultiplierString)) {
+        if (!numberUtility.isDouble(percentageMultiplierString)) {
             Messages.VALID_NUMBER_PERCENTAGE.sendMessage(commandSender);
             return true;
         }
@@ -43,7 +44,7 @@ public class MultiplierCommand implements CommandInterface {
 
         String secondsActiveString = strings[2];
 
-        if (!NumberUtility.isInteger(secondsActiveString)) {
+        if (!numberUtility.isInteger(secondsActiveString)) {
             Messages.VALID_SECONDS.sendMessage(commandSender);
             return true;
         }

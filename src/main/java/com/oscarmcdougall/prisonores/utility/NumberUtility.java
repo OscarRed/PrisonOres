@@ -4,28 +4,14 @@ import java.util.regex.Pattern;
 
 public class NumberUtility {
 
-    private static String Digits     = "(\\p{Digit}+)";
-    private static String HexDigits  = "(\\p{XDigit}+)";
-    private static String Exp        = "[eE][+-]?"+Digits;
-    private static String fpRegex    =
-            ("[\\x00-\\x20]*"+
-                    "[+-]?(" +
-                    "NaN|" +
-                    "Infinity|" +
-                    "((("+Digits+"(\\.)?("+Digits+"?)("+Exp+")?)|"+
-                    "(\\.("+Digits+")("+Exp+")?)|"+
-                    "((" +
-                    "(0[xX]" + HexDigits + "(\\.)?)|" +
-                    "(0[xX]" + HexDigits + "?(\\.)" + HexDigits + ")" +
-                    ")[pP][+-]?" + Digits + "))" +
-                    "[fFdD]?))" +
-                    "[\\x00-\\x20]*");
+    private String doubleRegex = "[0-9]+(\\.){0,1}[0-9]*";
+    private String integerRegex = "-?\\d+";
 
-    public static boolean isDouble(String o) {
-        return Pattern.matches(fpRegex, o);
+    public boolean isDouble(String inputString) {
+        return Pattern.matches(doubleRegex, inputString);
     }
 
-    public static boolean isInteger(String o) {
-        return o.matches("-?\\d+");
+    public boolean isInteger(String inputString) {
+        return Pattern.matches(integerRegex, inputString);
     }
 }
