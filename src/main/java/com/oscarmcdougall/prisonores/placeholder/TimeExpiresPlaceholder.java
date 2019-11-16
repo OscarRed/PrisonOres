@@ -9,9 +9,6 @@ public class TimeExpiresPlaceholder implements PlaceholderReplacer {
 
     @Override
     public String onPlaceholderReplace(PlaceholderReplaceEvent event) {
-
-        OfflinePlayer currentPlayer = event.getOfflinePlayer();
-
-        return PrisonOres.getPrisonOres().getMultiplierHandler().getSecondsLeftPlaceholder(currentPlayer);
+        return PrisonOres.getPrisonOres().getMultiplierHandler().getSecondsLeftPlaceholder(event.getOfflinePlayer());
     }
 }

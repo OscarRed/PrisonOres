@@ -9,9 +9,6 @@ public class MultiplierAmountPlaceholder implements PlaceholderReplacer {
 
     @Override
     public String onPlaceholderReplace(PlaceholderReplaceEvent event) {
-
-        OfflinePlayer currentPlayer = event.getOfflinePlayer();
-
-        return PrisonOres.getPrisonOres().getMultiplierHandler().getMultiplierPlaceholder(currentPlayer);
+        return PrisonOres.getPrisonOres().getMultiplierHandler().getMultiplierPlaceholder(event.getOfflinePlayer());
     }
 }
