@@ -8,9 +8,5 @@ import lombok.Setter;
 public class Multiplier {
 
     @Getter private double multiplierAmount;
-    private long timeExpires;
-
-    public long getTimeExpires() {
-        return timeExpires;
-    }
+    @Getter private long timeExpires;
 }
