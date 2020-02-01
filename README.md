@@ -7,7 +7,7 @@ This source code has been submitted for review by any interested party.
 Use [git](https://git-scm.com) to collaborate on this project.
 
 ```
-git clone https://github.com/oscarmcdougall/Framework.git
+git clone https://github.com/oscarmcdougall/PrisonOres.git
 ``` 
 
 ## Contributors
