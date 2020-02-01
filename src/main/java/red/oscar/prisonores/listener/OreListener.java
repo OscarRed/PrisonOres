@@ -1,6 +1,6 @@
-package com.oscarmcdougall.prisonores.listener;
+package red.oscar.prisonores.listener;
 
-import com.oscarmcdougall.prisonores.PrisonOres;
+import red.oscar.prisonores.PrisonOres;
 import org.bukkit.Material;
 import org.bukkit.event.EventHandler;
 import org.bukkit.event.Listener;

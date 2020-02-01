@@ -1,11 +1,9 @@
-package com.oscarmcdougall.prisonores.handler;
+package red.oscar.prisonores.handler;
 
-import com.oscarmcdougall.prisonores.PrisonOres;
-import com.oscarmcdougall.prisonores.configuration.Config;
-import com.oscarmcdougall.prisonores.configuration.OreValue;
+import red.oscar.prisonores.configuration.Config;
+import red.oscar.prisonores.configuration.OreValue;
 import org.bukkit.Material;
 import org.bukkit.block.Block;
-import org.bukkit.entity.Player;
 
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package com.oscarmcdougall.prisonores.utility;
+package red.oscar.prisonores.utility;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

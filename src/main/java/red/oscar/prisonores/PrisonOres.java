@@ -1,13 +1,13 @@
-package com.oscarmcdougall.prisonores;
+package red.oscar.prisonores;
 
 import be.maximvdw.placeholderapi.PlaceholderAPI;
-import com.oscarmcdougall.prisonores.configuration.Config;
-import com.oscarmcdougall.prisonores.configuration.Messages;
-import com.oscarmcdougall.prisonores.configuration.OreValue;
-import com.oscarmcdougall.prisonores.listener.OreListener;
-import com.oscarmcdougall.prisonores.placeholder.MultiplierAmountPlaceholder;
-import com.oscarmcdougall.prisonores.placeholder.TimeExpiresPlaceholder;
-import com.oscarmcdougall.prisonores.storage.SQLHandler;
+import red.oscar.prisonores.configuration.Config;
+import red.oscar.prisonores.configuration.Messages;
+import red.oscar.prisonores.configuration.OreValue;
+import red.oscar.prisonores.listener.OreListener;
+import red.oscar.prisonores.placeholder.MultiplierAmountPlaceholder;
+import red.oscar.prisonores.placeholder.TimeExpiresPlaceholder;
+import red.oscar.prisonores.storage.SQLHandler;
 import lombok.Getter;
 import net.milkbowl.vault.economy.Economy;
 import org.bukkit.Bukkit;
@@ -17,9 +17,9 @@ import org.bukkit.plugin.RegisteredServiceProvider;
 import org.bukkit.plugin.java.JavaPlugin;
 import rip.captain.frameworkfix.command.CommandHandler;
 import rip.captain.frameworkfix.configuration.ConfigurationHandler;
-import com.oscarmcdougall.prisonores.command.MultiplierCommand;
-import com.oscarmcdougall.prisonores.handler.MultiplierHandler;
-import com.oscarmcdougall.prisonores.handler.OreHandler;
+import red.oscar.prisonores.command.MultiplierCommand;
+import red.oscar.prisonores.handler.MultiplierHandler;
+import red.oscar.prisonores.handler.OreHandler;
 
 import java.util.logging.Level;
 

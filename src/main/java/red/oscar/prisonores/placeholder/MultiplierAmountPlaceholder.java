@@ -1,9 +1,8 @@
-package com.oscarmcdougall.prisonores.placeholder;
+package red.oscar.prisonores.placeholder;
 
 import be.maximvdw.placeholderapi.PlaceholderReplaceEvent;
 import be.maximvdw.placeholderapi.PlaceholderReplacer;
-import org.bukkit.OfflinePlayer;
-import com.oscarmcdougall.prisonores.PrisonOres;
+import red.oscar.prisonores.PrisonOres;
 
 public class MultiplierAmountPlaceholder implements PlaceholderReplacer {
 

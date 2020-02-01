@@ -2,4 +2,14 @@
 
 This source code has been submitted for review by any interested party.
 
-[My website](https://oscarmcdougall.com)
+## Installation
+
+Use [git](https://git-scm.com) to collaborate on this project.
+
+```
+git clone https://github.com/oscarmcdougall/Framework.git
+``` 
+
+## Contributors
+
+[Oscar](https://oscar.red)

@@ -1,11 +1,11 @@
-package com.oscarmcdougall.prisonores.command;
+package red.oscar.prisonores.command;
 
-import com.oscarmcdougall.prisonores.PrisonOres;
-import com.oscarmcdougall.prisonores.configuration.Messages;
-import com.oscarmcdougall.prisonores.utility.Multiplier;
+import red.oscar.prisonores.PrisonOres;
+import red.oscar.prisonores.configuration.Messages;
+import red.oscar.prisonores.utility.Multiplier;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
-import com.oscarmcdougall.prisonores.utility.NumberUtility;
+import red.oscar.prisonores.utility.NumberUtility;
 import org.bukkit.command.CommandSender;
 import rip.captain.frameworkfix.command.Command;
 import rip.captain.frameworkfix.command.CommandInterface;

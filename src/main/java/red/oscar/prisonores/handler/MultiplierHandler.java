@@ -1,7 +1,7 @@
-package com.oscarmcdougall.prisonores.handler;
+package red.oscar.prisonores.handler;
 
-import com.oscarmcdougall.prisonores.PrisonOres;
-import com.oscarmcdougall.prisonores.utility.Multiplier;
+import red.oscar.prisonores.PrisonOres;
+import red.oscar.prisonores.utility.Multiplier;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
 import org.bukkit.entity.Player;

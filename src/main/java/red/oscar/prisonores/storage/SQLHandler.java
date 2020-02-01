@@ -1,13 +1,11 @@
-package com.oscarmcdougall.prisonores.storage;
+package red.oscar.prisonores.storage;
 
 import org.apache.commons.dbcp2.BasicDataSource;
 import org.bukkit.Bukkit;
 import org.bukkit.OfflinePlayer;
-import org.bukkit.entity.Player;
-import com.oscarmcdougall.prisonores.utility.Multiplier;
+import red.oscar.prisonores.utility.Multiplier;
 
 import java.sql.*;
-import java.util.Properties;
 import java.util.logging.Level;
 
 public class SQLHandler {
